@@ -6,6 +6,5 @@ const updateInputValue = (e) => {
     `--${element.name}`,
     `${element.value}${suffix}`
   );
-  console.log(suffix);
 };
 inputs.forEach((input) => input.addEventListener("input", updateInputValue));
